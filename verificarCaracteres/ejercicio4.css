@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja {
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container label {
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 5rem;
+  height: 1.5rem;
+  outline: none;
+  border: 3px solid blueviolet;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #ff00e1;
+  /* Color rosa del borde cuando tiene el foco */
+  box-shadow: 0 0 5px #ff00e1;
+  /* Agrega una sombra para resaltar */
+}
+
+p#resultado {
+  color: blueviolet;
+  /* Color rosa para el resultado */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  text-align: center;
+  /* Centrar el texto en el input */
+  margin-top: 5px;
+}
+
+.btn-btn {
+  background-color: #ff00d0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: blueviolet;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.container {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 300px;
+}
+.input-field {
+	margin-bottom: 10px;
+}
+#submitButton {
+	background-color: pink;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#result {
+	margin-top: 20px;
+}

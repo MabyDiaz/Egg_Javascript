@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: blueviolet;
+}
+.container {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	width: 300px;
+	margin: 50px auto;
+	background-color: #fff;
+}
+
+h1 {
+	color: blueviolet;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.matrix-row {
+	display: flex;
+	margin-bottom: 10px;
+}
+.matrix-cell {
+	flex: 1;
+	border: 1px solid #ccc;
+	padding: 5px;
+	text-align: center;
+}
+
+.btn-btn {
+	background-color: rgb(246, 76, 223);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	width: 6rem;
+	height: 2rem;
+	margin-top: 15px;
+}
+.transformed-array {
+	font-weight: bold;
+}

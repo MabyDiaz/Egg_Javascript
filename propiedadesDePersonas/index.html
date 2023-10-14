@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./style.css" />
+	<title>Ingresar Propiedades de Personas</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Ingresar Propiedades de Persona</h1>
+		<div class="input-field">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" required />
+		</div>
+		<div class="input-field">
+			<label for="edad">Edad:</label>
+			<input type="number" id="edad" required />
+		</div>
+		<div class="input-field">
+			<label for="sexo">Sexo:</label>
+			<select id="sexo" required>
+				<option value="H">Hombre</option>
+				<option value="M">Mujer</option>
+				<option value="O">Otro</option>
+			</select>
+		</div>
+		<div class="input-field">
+			<label for="peso">Peso:</label>
+			<input type="number" id="peso" required />
+		</div>
+		<div class="input-field">
+			<label for="altura">Altura:</label>
+			<input type="number" id="altura" required />
+		</div>
+		<button id="submitButton">Generar Array</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="./app.js"></script>
+</body>
+
+</html>

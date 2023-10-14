@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: blueviolet;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.container {
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 600px;
+}
+
+h1 {
+	color: blueviolet;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+#paragraph {
+	text-align: justify;
+	text-indent: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-btn {
+	background-color: #fa09e1;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.highlighted {
+	background-color: yellow;
+}

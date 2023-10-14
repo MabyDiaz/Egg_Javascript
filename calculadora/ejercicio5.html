@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio5.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Calculadora</h1>
+        <form id="calculadora-form">
+            <label for="operacion">Seleccione la operación</label>
+            <br>
+            <select name="operacion" id="operacion">
+                <option value="S" selected>Suma</option>
+                <option value="R">Resta</option>
+                <option value="M">Multiplicación</option>
+                <option value="D">División</option>
+            </select>
+            <br><br>
+            <label for="numero1">Ingrese el primer número:</label>
+            <br>
+            <input type="number" name="numero1" id="numero1">
+            <br><br>
+            <label for="numero2">Ingrese el segundo número:</label>
+            <br>
+            <input type="number" name="numero2" id="numero2">
+            <br><br>
+            <input type="submit" value="calcular" class="btn-btn">
+        </form>
+        <br>
+        <p id="resultado"></p>
+    </div>
+
+    
+    <script src="ejercicio5.js"></script>
+</body>
+
+</html>
